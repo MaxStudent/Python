@@ -53,7 +53,7 @@ class Loto:
                 card_player[i][n.index(num_cask)] = '-'
                 self.score += 1
                 if self.score == 15:
-                    print('{} Победила!'.format(self.name))
+                    print('{} Победил!'.format(self.name))
                     sys.exit(1)
                 return True
         return False
